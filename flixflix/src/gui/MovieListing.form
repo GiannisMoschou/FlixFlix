@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MovieListing">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="13" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="60" left="60" bottom="60" right="60"/>
+    <constraints>
+      <xy x="20" y="20" width="867" height="534"/>
+    </constraints>
+    <properties>
+      <background color="-11908534"/>
+      <foreground color="-15461356"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3e5c4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12828863"/>
+          <foreground color="-1"/>
+          <text value="Title: "/>
+        </properties>
+      </component>
+      <component id="432aa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-1"/>
+          <text value="Description:"/>
+        </properties>
+      </component>
+      <component id="b6e6e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="protagonists:"/>
+        </properties>
+      </component>
+      <component id="d25a4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Year:"/>
+        </properties>
+      </component>
+      <component id="6b779" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="duration:"/>
+        </properties>
+      </component>
+      <component id="49514" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Suitable for children"/>
+        </properties>
+      </component>
+      <component id="b8dd6" class="javax.swing.JTextField" binding="titleTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f8fa6" class="javax.swing.JTextField" binding="descriptionTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8fcdc" class="javax.swing.JTextField" binding="protagonistsTextField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1c451" class="javax.swing.JTextField" binding="yearTextField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bf99b" class="javax.swing.JTextField" binding="durationTextField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="53b08" class="javax.swing.JRadioButton" binding="yesRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13750738"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="yes"/>
+        </properties>
+      </component>
+      <component id="d8c92" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Category:"/>
+        </properties>
+      </component>
+      <component id="3d296" class="javax.swing.JRadioButton" binding="HORRORRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13750738"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="HORROR"/>
+        </properties>
+      </component>
+      <component id="1156c" class="javax.swing.JRadioButton" binding="SCIFIRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13750738"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="SCIFI"/>
+        </properties>
+      </component>
+      <component id="646ff" class="javax.swing.JButton" binding="backButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10263709"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="309d6" class="javax.swing.JRadioButton" binding="COMEDYRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13750738"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="COMEDY"/>
+        </properties>
+      </component>
+      <component id="d6f3c" class="javax.swing.JRadioButton" binding="ACTIONRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13750738"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="ACTION"/>
+        </properties>
+      </component>
+      <component id="218d3" class="javax.swing.JRadioButton" binding="DRAMARadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13750738"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="DRAMA"/>
+        </properties>
+      </component>
+      <component id="578ad" class="javax.swing.JRadioButton" binding="noRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13750738"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="no"/>
+        </properties>
+      </component>
+      <scrollpane id="4283d">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fadb" class="javax.swing.JList" binding="alikeList">
+            <constraints/>
+            <properties>
+              <background color="-7237231"/>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="9b8ea">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="52aed" class="javax.swing.JList" binding="myAlikeList">
+            <constraints/>
+            <properties>
+              <background color="-7237231"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="bce5" class="javax.swing.JButton" binding="addToAlikeButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add to similar"/>
+        </properties>
+      </component>
+      <component id="6b5b5" class="javax.swing.JButton" binding="deleteFromAlikeButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete from similar"/>
+        </properties>
+      </component>
+      <component id="e75ac" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11908534"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <foreground color="-1756099"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="40a44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select a Movie that is similar"/>
+        </properties>
+      </component>
+      <component id="72300" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Movie's similar list"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
